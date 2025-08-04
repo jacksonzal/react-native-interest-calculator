@@ -22,6 +22,12 @@ Could obviously make this way better but keeping within the timebox so making a 
    npx expo start
    ```
 
+3. Run the tests
+
+   ```bash
+   npm run test
+   ```
+
 
 In the output, you'll find options to open the app in a
 
