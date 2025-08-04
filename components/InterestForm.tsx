@@ -8,7 +8,7 @@ import { Button, StyleSheet, View } from "react-native";
 import { NumericInput } from "./NumericInput";
 import { RadioButtons } from "./RadioButtons";
 
-type InterestFormValues = {
+export type InterestFormValues = {
   startAmount: number;
   interestRate: number;
   investmentTerm: number;
