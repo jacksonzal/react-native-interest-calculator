@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen matches snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 24,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 24,
+        }
+      }
+    >
+      Interest Calculator
+    </Text>
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 16,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "gap": 4,
+          }
+        }
+      >
+        <Text>
+          Start deposit amount
+        </Text>
+        <TextInput
+          keyboardType="decimal-pad"
+          name="startAmount"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          style={
+            [
+              {
+                "borderColor": "gray",
+                "borderWidth": 1,
+                "fontSize": 16,
+                "padding": 6,
+              },
+              undefined,
+            ]
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          {
+            "gap": 4,
+          }
+        }
+      >
+        <Text>
+          Interest rate
+        </Text>
+        <TextInput
+          keyboardType="decimal-pad"
+          name="interestRate"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          style={
+            [
+              {
+                "borderColor": "gray",
+                "borderWidth": 1,
+                "fontSize": 16,
+                "padding": 6,
+              },
+              undefined,
+            ]
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          {
+            "gap": 4,
+          }
+        }
+      >
+        <Text>
+          Investment term (years)
+        </Text>
+        <TextInput
+          keyboardType="decimal-pad"
+          name="investmentTerm"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          style={
+            [
+              {
+                "borderColor": "gray",
+                "borderWidth": 1,
+                "fontSize": 16,
+                "padding": 6,
+              },
+              undefined,
+            ]
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          {
+            "gap": 8,
+          }
+        }
+      >
+        <Text>
+          Interest paid frequency
+        </Text>
+        <View
+          style={
+            {
+              "borderColor": "gray",
+              "borderWidth": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingVertical": 16,
+                },
+                {
+                  "backgroundColor": "#ADD8E6",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Monthly
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingVertical": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={false}
+            >
+              Quarterly
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingVertical": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={false}
+            >
+              Yearly
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingVertical": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <Text
+              style={false}
+            >
+              At Maturity
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {},
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Submit
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

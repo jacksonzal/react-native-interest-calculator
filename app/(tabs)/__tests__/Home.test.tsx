@@ -2,10 +2,10 @@ import { render } from "@testing-library/react-native";
 
 import HomeScreen from "../index";
 
-describe("<HomeScreen />", () => {
-  test("Text renders correctly on HomeScreen", () => {
-    const { getByText } = render(<HomeScreen />);
+describe("HomeScreen", () => {
+  it("matches snapshot", () => {
+    const container = render(<HomeScreen />);
 
-    expect(getByText("Home")).toBeTruthy();
+    expect(container.toJSON()).toMatchSnapshot();
   });
 });
