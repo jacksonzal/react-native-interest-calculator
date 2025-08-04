@@ -1,11 +1,18 @@
-import { InterestFormValues } from "@/components/InterestForm";
+import { InterestFrequency } from "@/constants/interest";
+
+type CalculateInterestParams = {
+  startAmount: number;
+  interestRate: number;
+  investmentTerm: number;
+  frequency: InterestFrequency;
+};
 
 export const calculateInterest = ({
   startAmount,
   interestRate,
   investmentTerm,
   frequency,
-}: InterestFormValues) => {
+}: CalculateInterestParams) => {
   let totalAmount = startAmount;
 
   switch (frequency) {
@@ -27,9 +34,8 @@ export const calculateInterest = ({
       break;
     }
     case "at-maturity": {
-      const interestEarned =
-        (startAmount * interestRate * investmentTerm) / 100;
-      totalAmount = startAmount + interestEarned;
+      totalAmount =
+        startAmount + (startAmount * interestRate * investmentTerm) / 100;
       break;
     }
   }

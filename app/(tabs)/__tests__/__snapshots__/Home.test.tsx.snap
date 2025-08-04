@@ -42,7 +42,7 @@ exports[`HomeScreen matches snapshot 1`] = `
         }
       >
         <Text>
-          Start deposit amount
+          Start deposit amount ($)
         </Text>
         <TextInput
           keyboardType="decimal-pad"
@@ -71,7 +71,7 @@ exports[`HomeScreen matches snapshot 1`] = `
         }
       >
         <Text>
-          Interest rate
+          Interest rate (%)
         </Text>
         <TextInput
           keyboardType="decimal-pad"
@@ -342,64 +342,6 @@ exports[`HomeScreen matches snapshot 1`] = `
               At Maturity
             </Text>
           </View>
-        </View>
-      </View>
-      <View
-        accessibilityRole="button"
-        accessibilityState={
-          {
-            "busy": undefined,
-            "checked": undefined,
-            "disabled": undefined,
-            "expanded": undefined,
-            "selected": undefined,
-          }
-        }
-        accessibilityValue={
-          {
-            "max": undefined,
-            "min": undefined,
-            "now": undefined,
-            "text": undefined,
-          }
-        }
-        accessible={true}
-        collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          {
-            "opacity": 1,
-          }
-        }
-      >
-        <View
-          style={
-            [
-              {},
-            ]
-          }
-        >
-          <Text
-            style={
-              [
-                {
-                  "color": "#007AFF",
-                  "fontSize": 18,
-                  "margin": 8,
-                  "textAlign": "center",
-                },
-              ]
-            }
-          >
-            Submit
-          </Text>
         </View>
       </View>
     </View>
