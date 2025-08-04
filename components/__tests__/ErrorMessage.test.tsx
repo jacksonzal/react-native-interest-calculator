@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react-native";
-import { ErrorMessage } from "./ErrorMessage";
+import { ErrorMessage } from "../ErrorMessage";
 
 describe("ErrorMessage", () => {
   describe("Given no message", () => {

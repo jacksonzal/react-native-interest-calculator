@@ -1,5 +1,5 @@
 import { fireEvent, render } from "@testing-library/react-native";
-import { RadioButtons } from "./RadioButtons";
+import { RadioButtons } from "../RadioButtons";
 
 const mockOnChange = jest.fn();
 const mockProps = {

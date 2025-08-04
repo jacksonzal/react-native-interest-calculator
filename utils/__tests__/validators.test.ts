@@ -1,4 +1,4 @@
-import { validatePositiveNumber } from "./validators";
+import { validatePositiveNumber } from "../validators";
 
 describe("validatePositiveNumber", () => {
   describe("Given no value", () => {
