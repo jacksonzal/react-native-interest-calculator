@@ -2,21 +2,21 @@ import React from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { ErrorMessage } from "./ErrorMessage";
 
-type Props = {
+type Props<TValue = string> = {
   label: string;
   errorMessage?: string;
-  options: { label: string; value: string }[];
-  selectedValue: string;
-  onChange: (value: string) => void;
+  options: { label: string; value: TValue }[];
+  selectedValue: TValue;
+  onChange: (value: TValue) => void;
 };
 
-export const RadioButtons = ({
+export const RadioButtons = <TValue = string,>({
   label,
   errorMessage,
   options,
   selectedValue,
   onChange,
-}: Props) => {
+}: Props<TValue>) => {
   return (
     <View style={styles.container}>
       <Text>{label}</Text>
@@ -25,7 +25,7 @@ export const RadioButtons = ({
           const isSelected = selectedValue === value;
           return (
             <Pressable
-              key={value}
+              key={label}
               style={[styles.button, isSelected && styles.buttonSelected]}
               onPress={() => onChange(value)}
             >
