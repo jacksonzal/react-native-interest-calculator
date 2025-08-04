@@ -1,11 +1,11 @@
-import { render } from '@testing-library/react-native';
+import { render } from "@testing-library/react-native";
 
-import HomeScreen from '../index';
+import HomeScreen from "../index";
 
-describe('<HomeScreen />', () => {
-  test('Text renders correctly on HomeScreen', () => {
+describe("<HomeScreen />", () => {
+  test("Text renders correctly on HomeScreen", () => {
     const { getByText } = render(<HomeScreen />);
 
-    expect(getByText('Home')).toBeTruthy();
+    expect(getByText("Home")).toBeTruthy();
   });
 });
