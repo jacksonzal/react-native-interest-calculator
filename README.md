@@ -1,5 +1,13 @@
 # React Native Interest Calculator
 
+## Future enhancements
+
+Could obviously make this way better but keeping within the timebox so making a wishlist here: 
+
+- Better input validations
+- Better styling/proper theming
+- More tests ✅
+
 ## Get started
 
 1. Install dependencies
@@ -13,6 +21,7 @@
    ```bash
    npx expo start
    ```
+
 
 In the output, you'll find options to open the app in a
 
